@@ -1,0 +1,17 @@
+version: 1
+project:
+  title: Web Mining - Muhammad Rafi Lazuardi
+  authors:
+    - name: Muhammad Rafi Lazuardi
+      email: lazuardirafi59@gmail.com
+  subject: Pencarian & Penambangan Web
+  keywords:
+    - web mining
+    - jupyter book
+    - python
+  toc:
+    - file: Notebooks/profil.ipynb
+    - file: Notebooks/materi1.ipynb
+
+site:
+  title: Web Mining - Muhammad Rafi Lazuardi
