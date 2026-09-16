@@ -12,6 +12,7 @@ project:
   toc:
     - file: Notebooks/profil.ipynb
     - file: Notebooks/materi1.ipynb
+    - file: Notebooks/materi2.ipynb
 
 site:
   title: Web Mining - Muhammad Rafi Lazuardi
