@@ -1,5 +1,5 @@
 param (
-    [string]$Message = "Update materi notebook"
+    [string]$Message = "Update materi notebook 4 dan 5"
 )
 
 Write-Host "=========================================" -ForegroundColor Cyan
