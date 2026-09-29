@@ -1,4 +1,4 @@
-name: Deploy Jupyter Book to GitHub Pages
+name: Deploy MyST to GitHub Pages
 
 on:
   push:
@@ -21,20 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "20"
 
-      - name: Install dependencies
-        run: |
-          pip install jupyter-book trafilatura ipykernel
-
-      - name: Build Jupyter Book
+      - name: Build with MyST
         env:
           BASE_URL: /ppw
         run: |
-          jupyter-book build --html --ci
+          npx -y mystmd build --html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
