@@ -55,9 +55,9 @@
     "F1 (macro)": 0.0306
   },
   "grid_terbaik_gaussian_nb": {
-    "window": 2,
+    "window": 5,
     "dim": 50,
-    "accuracy": 0.95
+    "accuracy": 0.975
   },
   "jumlah_salah_prediksi": 2
 }
