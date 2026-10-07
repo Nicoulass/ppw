@@ -1,0 +1,6 @@
+Klasifier,Accuracy,Precision (macro),Recall (macro),F1 (macro),Status
+Gaussian Naive Bayes,0.95,0.9545454545454546,0.95,0.949874686716792,OK
+Logistic Regression,0.975,0.9761904761904762,0.975,0.9749843652282677,OK
+kNN (k=5),0.975,0.9761904761904762,0.975,0.9749843652282677,OK
+Decision Tree,0.95,0.9545454545454546,0.95,0.949874686716792,OK
+Multinomial Naive Bayes,,,,,GAGAL: Negative values in data passed to MultinomialNB (input X).

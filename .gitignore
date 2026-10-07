@@ -23,3 +23,9 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Repo terpisah dengan git sendiri
+aplikasi-klasifikasi-berita/
+
+# Tooling lokal (bukan bagian project)
+.agents/
