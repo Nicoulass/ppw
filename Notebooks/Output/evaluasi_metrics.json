@@ -43,20 +43,20 @@
     ]
   ],
   "cross_validation_mean": {
-    "Accuracy": 0.975,
-    "Precision (macro)": 0.9757,
-    "Recall (macro)": 0.975,
-    "F1 (macro)": 0.975
+    "Accuracy": 0.97,
+    "Precision (macro)": 0.9709,
+    "Recall (macro)": 0.97,
+    "F1 (macro)": 0.97
   },
   "cross_validation_std": {
-    "Accuracy": 0.0306,
-    "Precision (macro)": 0.0302,
-    "Recall (macro)": 0.0306,
-    "F1 (macro)": 0.0306
+    "Accuracy": 0.0274,
+    "Precision (macro)": 0.0271,
+    "Recall (macro)": 0.0274,
+    "F1 (macro)": 0.0274
   },
   "grid_terbaik_gaussian_nb": {
-    "window": 5,
-    "dim": 50,
+    "window": 3,
+    "dim": 200,
     "accuracy": 0.975
   },
   "jumlah_salah_prediksi": 2
